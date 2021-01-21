@@ -1,0 +1,128 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica;
+}
+
+#wrapper{
+	width: auto;
+	margin: 0 auto;
+	height: auto;
+	padding: 20px 20px;
+}
+#home-wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+.ul-card li {
+	margin: 0 auto 20px auto;
+	height: auto;
+	max-height: 400px;
+	overflow: auto;
+	list-style: none;
+	display: block;
+	padding: 40px 0;
+	text-align: center;
+	background-color: white;	 
+}
+.ul-card li input{
+	display: block;
+	margin:auto;
+}
+.ul-card li div{
+	height:auto;
+}
+.ul-card li img{
+	width: 200px;
+	height: auto;
+}
+.ul-card{
+	padding: 0px;
+	margin: 0px 5px;
+}
+
+ul li a {
+	text-decoration: none;
+	font-size: 27px;
+}
+.content{
+	width: 730px;
+	height: 1000px;
+	vertical-align: top;
+	display: inline-block;
+}
+.login{
+	width: 500px;
+	height: 320px;
+	display: block;
+}
+
+#main-content{
+	width: 1000px;
+	margin: 0 auto;
+
+	}
+.text-small{
+	font-size: 10px;
+	text-align: right;
+}
+.text-right{
+	text-align: right;
+}	
+
+.h1-discussion{
+	margin: 0 0 15px 0;
+}
+.h4-discussion{
+	margin: 5px 0px;
+}
+#topic-post{
+	display: inline;
+}
+.white-text{
+	color: white;
+}
+.content-right{
+	padding: 0 0 0 14px;
+}
+.content-centered{
+	margin: 0 0 0 50px;
+}
+.title-margin{
+	margin: 0;
+}
+#title-left{
+	width: 1365px;
+	display: inline-block;
+}
+#title-right{
+	width:100px;
+	text-align: right;
+	display: inline-block;
+}
+#title{
+	height: 60px;
+}
+.li-margin{
+	margin: 0 0 10px 0;
+}
+.app-title{
+	color: #667;
+}
+#home-bottom{
+	height: 95px;
+}
+#topic-button{
+	vertical-align: top;
+}
+.margin-left{
+	margin-left: 5px;
+}
+.margin-bottom{
+	margin-bottom: 10px;
+}
+.centered{
+	margin: 0 auto;
+	text-align: center;
+	
+}
