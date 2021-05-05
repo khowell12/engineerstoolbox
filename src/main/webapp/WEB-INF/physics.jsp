@@ -83,19 +83,19 @@
 		<div>
 		<h4>Find the time to reach maximum height</h4>
 		<img src="/PM-T-h.jpg">
-		<form:form action = "/PhysicsCalculate" method = "post" modelAttribute ="calc">
+		<%--<form:form action = "/PhysicsCalculate" method = "post" modelAttribute ="calc">
 			<form:label path="v0"/>
 			<form:input path="v0"/>
 			<form:label path="theta"/>
 			<form:input path="theta"/>
 			<input type="submit"/>
-		</form:form>
+		</form:form>--%>
 		<p>time : ${time}</p>
-		<%-- <form id="projectile" name="projectile" action="#">
+		<form id="projectile" name="projectile" action="#">
 			<p><input name="vi" id="vi" value="0" type="text"> Vi (m/s)</p>
 			<p><input name="theta" id = "theta" value="0" type="text"> Angle (degrees)</p>
-			<input type="button" onClick="calculateProjectileTHeight(vi,theta);" value="Calculate">
-		</form> --%>
+			<input type="button" class="calculate" value="Calculate">
+		</form>
 		<script>
 			function calculateProjectileTHeight(vi, theta){
 				var ans = (vi.value * Math.sin(Math.PI*(theta.value)/180)/9.81);
