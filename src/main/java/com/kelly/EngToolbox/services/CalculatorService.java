@@ -22,7 +22,7 @@ public class CalculatorService{
 		//int timeAns = 10;
 		//System.out.println("time ans from Calc Service: "+timeAns);
 		jAns.put("time", timeAns);
-		//System.out.println(v0 + theta);
+		System.out.println(String.valueOf(v0) + " " + String.valueOf(theta));
 		
 		return jAns;
 	}

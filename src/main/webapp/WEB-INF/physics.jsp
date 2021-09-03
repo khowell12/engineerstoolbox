@@ -91,19 +91,19 @@
 			<input type="submit"/>
 		</form:form>--%>
 		<p>time : ${time}</p>
-		<form id="projectile" name="projectile" action="#">
-			<p><input name="vi" id="vi" value="0" type="text"> Vi (m/s)</p>
+		<form id="projectile" name="projectile" action="/PhysicsCalculate" method="post">
+			<p><input name="v0" id="v0" value="0" type="text"> Vi (m/s)</p>
 			<p><input name="theta" id = "theta" value="0" type="text"> Angle (degrees)</p>
-			<input type="button" class="calculate" value="Calculate">
+			<input type="submit" class="calculate" value="Calculate">
 		</form>
-		<script>
+		<!-- <script>
 			function calculateProjectileTHeight(vi, theta){
 				var ans = (vi.value * Math.sin(Math.PI*(theta.value)/180)/9.81);
 				console.log(ans);
 				alert(ans.toFixed(3) + " seconds");
 				return ans;
 			}
-		</script>
+		</script> -->
 		<h4>Find the total flight time of an object</h4>
 		<img src="PM-T-f.jpg">
 		<form id="projectile" name="projectile" action="#">
